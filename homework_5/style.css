@@ -544,7 +544,7 @@ input{
   display:grid;
   position: relative;
   top:300px;
-  left:250px;
+  left:450px;
   grid-template-columns: repeat(3,350px);
   grid-auto-rows: 400px 400px 400px;
   grid-gap: 50px;
@@ -606,8 +606,8 @@ p {
   justify-items:center;
   display:grid;
   position: relative;
-  top:300px;
-  left:100px;
+  top:200px;
+  left:0;
   grid-template-columns: 130px 600px 130px;
   grid-template-rows: 434px 180px;
   grid-gap: 30px;
@@ -636,6 +636,7 @@ p {
 .productInfo{
   position: absolute;
   left: 839px;
+  top:300px;
   padding-left:70px;
   font-family: 'Oswald', sans-serif;
   text-align: left;
